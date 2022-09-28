@@ -1,0 +1,86 @@
+export const TASK_LIST = [
+  {
+    taskId: "1",
+    title: "John Brown",
+    completed: true,
+    details: "",
+    subtasks: [],
+  },
+  {
+    taskId: "2",
+    title: "Jim Green",
+    completed: true,
+    details: "London No. 1 Lake Park",
+    subtasks: [],
+  },
+  {
+    taskId: "3",
+    title: "Joe Black",
+    completed: false,
+    details: "Sidney No. 1 Lake Park",
+    subtasks: [],
+  },
+  {
+    taskId: "4",
+    title: "John Brown",
+    completed: false,
+    details: "New York No. 1 Lake Park",
+    subtasks: [
+      {
+        subtaskId: "122",
+        title: "Sub1",
+        completed: true,
+      },
+      {
+        subtaskId: "123",
+        title: "Sub2",
+        completed: false,
+      },
+      {
+        subtaskId: "124",
+        title: "Sub3",
+        completed: true,
+      },
+      {
+        subtaskId: "125",
+        title: "Sub4",
+        completed: false,
+      },
+    ],
+  },
+  {
+    taskId: "5",
+    title: "Jim Green",
+    completed: false,
+    details: "London No. 1 Lake Park",
+    subtasks: [],
+  },
+  {
+    taskId: "6",
+    title: "Joe Black",
+    completed: true,
+    details: "Sidney No. 1 Lake Park",
+    subtasks: [],
+  },
+  {
+    taskId: "11",
+    title: "John Brown",
+    completed: true,
+    details: "New York No. 1 Lake Park",
+    subtasks: [],
+  },
+  {
+    taskId: "21",
+    title: "Jim Green",
+    completed: true,
+    details: "London No. 1 Lake Park",
+    subtasks: [],
+  },
+  {
+    taskId: "31",
+    title: "Joe Black",
+    completed: true,
+    details: "Sidney No. 1 Lake Park",
+    subtasks: [],
+  },
+];

@@ -1,0 +1,11 @@
+.tasksList{
+    padding: 15px;
+    background-color: #ffffff;
+    align-content: center;
+    margin: 100px;
+}
+
+.tasksHeader{
+    display: flex;
+    justify-content: space-between;
+}
